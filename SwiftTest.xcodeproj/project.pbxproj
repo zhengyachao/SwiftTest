@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A54781B1F46E30A00561CB4 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5478181F46E30A00561CB4 /* DiscoverTableViewController.swift */; };
+		6A5478201F46E31600561CB4 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A54781D1F46E31600561CB4 /* HomeTableViewController.swift */; };
+		6A5478251F46E32300561CB4 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5478221F46E32300561CB4 /* MessageTableViewController.swift */; };
+		6A54782A1F46E32B00561CB4 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5478271F46E32B00561CB4 /* MineViewController.swift */; };
+		6A54782C1F46E34800561CB4 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A54782B1F46E34800561CB4 /* MainController.swift */; };
 		6AB90B9A1F3C892E00EBE4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90B991F3C892E00EBE4A3 /* AppDelegate.swift */; };
 		6AB90BA11F3C892E00EBE4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB90BA01F3C892E00EBE4A3 /* Assets.xcassets */; };
 		6AB90BA41F3C892E00EBE4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB90BA21F3C892E00EBE4A3 /* LaunchScreen.storyboard */; };
 		6AB90BAF1F3C892E00EBE4A3 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BAE1F3C892E00EBE4A3 /* SwiftTestTests.swift */; };
 		6AB90BBA1F3C892E00EBE4A3 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BB91F3C892E00EBE4A3 /* SwiftTestUITests.swift */; };
-		6AB90BC81F3D926200EBE4A3 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BC71F3D926200EBE4A3 /* MainController.swift */; };
-		6AB90BCA1F3D96A800EBE4A3 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BC91F3D96A800EBE4A3 /* HomeTableViewController.swift */; };
-		6AB90BCC1F3D96B600EBE4A3 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BCB1F3D96B600EBE4A3 /* MessageTableViewController.swift */; };
-		6AB90BCE1F3D96BF00EBE4A3 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BCD1F3D96BF00EBE4A3 /* DiscoverTableViewController.swift */; };
-		6AB90BD01F3D96D600EBE4A3 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB90BCF1F3D96D600EBE4A3 /* MineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A5478181F46E30A00561CB4 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		6A54781D1F46E31600561CB4 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		6A5478221F46E32300561CB4 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		6A5478271F46E32B00561CB4 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		6A54782B1F46E34800561CB4 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = "SwiftTest/Tabbar&Navbar/MainController.swift"; sourceTree = SOURCE_ROOT; };
 		6AB90B961F3C892E00EBE4A3 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB90B991F3C892E00EBE4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB90BA01F3C892E00EBE4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,11 +53,6 @@
 		6AB90BB51F3C892E00EBE4A3 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB90BB91F3C892E00EBE4A3 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		6AB90BBB1F3C892E00EBE4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AB90BC71F3D926200EBE4A3 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = ../MainController.swift; sourceTree = "<group>"; };
-		6AB90BC91F3D96A800EBE4A3 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableViewController.swift; path = SwiftTest/HomeTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		6AB90BCB1F3D96B600EBE4A3 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTableViewController.swift; path = SwiftTest/MessageTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		6AB90BCD1F3D96BF00EBE4A3 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoverTableViewController.swift; path = SwiftTest/DiscoverTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		6AB90BCF1F3D96D600EBE4A3 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MineViewController.swift; path = SwiftTest/MineViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A5478171F46E30A00561CB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A5478181F46E30A00561CB4 /* DiscoverTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A5478191F46E30A00561CB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A54781A1F46E30A00561CB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A54781C1F46E31600561CB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A54781D1F46E31600561CB4 /* HomeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A54781E1F46E31600561CB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A54781F1F46E31600561CB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A5478211F46E32300561CB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A5478221F46E32300561CB4 /* MessageTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A5478231F46E32300561CB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A5478241F46E32300561CB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6A5478261F46E32B00561CB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6A5478271F46E32B00561CB4 /* MineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6A5478281F46E32B00561CB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6A5478291F46E32B00561CB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6AB90B8D1F3C892E00EBE4A3 = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +225,7 @@
 		6AB90BD51F3DB17900EBE4A3 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
-				6AB90BC71F3D926200EBE4A3 /* MainController.swift */,
+				6A54782B1F46E34800561CB4 /* MainController.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -145,7 +233,9 @@
 		6AB90BD61F3DB1B200EBE4A3 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				6AB90BCD1F3D96BF00EBE4A3 /* DiscoverTableViewController.swift */,
+				6A5478171F46E30A00561CB4 /* Controller */,
+				6A5478191F46E30A00561CB4 /* Model */,
+				6A54781A1F46E30A00561CB4 /* View */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -153,7 +243,9 @@
 		6AB90BD71F3DB1B200EBE4A3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				6AB90BC91F3D96A800EBE4A3 /* HomeTableViewController.swift */,
+				6A54781C1F46E31600561CB4 /* Controller */,
+				6A54781E1F46E31600561CB4 /* Model */,
+				6A54781F1F46E31600561CB4 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,7 +253,9 @@
 		6AB90BD81F3DB1B200EBE4A3 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				6AB90BCB1F3D96B600EBE4A3 /* MessageTableViewController.swift */,
+				6A5478211F46E32300561CB4 /* Controller */,
+				6A5478231F46E32300561CB4 /* Model */,
+				6A5478241F46E32300561CB4 /* View */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -169,7 +263,9 @@
 		6AB90BD91F3DB1B200EBE4A3 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				6AB90BCF1F3D96D600EBE4A3 /* MineViewController.swift */,
+				6A5478261F46E32B00561CB4 /* Controller */,
+				6A5478281F46E32B00561CB4 /* Model */,
+				6A5478291F46E32B00561CB4 /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -242,7 +338,7 @@
 				TargetAttributes = {
 					6AB90B951F3C892E00EBE4A3 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2Y42NQD73P;
+						DevelopmentTeam = 7ZKMYBPL55;
 						ProvisioningStyle = Automatic;
 					};
 					6AB90BA91F3C892E00EBE4A3 = {
@@ -310,12 +406,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB90BCA1F3D96A800EBE4A3 /* HomeTableViewController.swift in Sources */,
-				6AB90BCC1F3D96B600EBE4A3 /* MessageTableViewController.swift in Sources */,
-				6AB90BD01F3D96D600EBE4A3 /* MineViewController.swift in Sources */,
-				6AB90BC81F3D926200EBE4A3 /* MainController.swift in Sources */,
-				6AB90BCE1F3D96BF00EBE4A3 /* DiscoverTableViewController.swift in Sources */,
+				6A5478201F46E31600561CB4 /* HomeTableViewController.swift in Sources */,
+				6A54781B1F46E30A00561CB4 /* DiscoverTableViewController.swift in Sources */,
+				6A5478251F46E32300561CB4 /* MessageTableViewController.swift in Sources */,
 				6AB90B9A1F3C892E00EBE4A3 /* AppDelegate.swift in Sources */,
+				6A54782C1F46E34800561CB4 /* MainController.swift in Sources */,
+				6A54782A1F46E32B00561CB4 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 2Y42NQD73P;
+				DEVELOPMENT_TEAM = 7ZKMYBPL55;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -477,7 +573,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 2Y42NQD73P;
+				DEVELOPMENT_TEAM = 7ZKMYBPL55;
 				INFOPLIST_FILE = SwiftTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
